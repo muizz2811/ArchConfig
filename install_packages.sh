@@ -4,7 +4,7 @@
 PACKAGE_LIST="installed_packages.txt"
 
 # Check if the package list file exists
-if [[ ! -f "$PACKAGE_LIST" ]]; then
+if [[ ! -f "$PACKAGE_LIST" ]]; then         
     echo "Package list file not found: $PACKAGE_LIST"
     exit 1
 fi
